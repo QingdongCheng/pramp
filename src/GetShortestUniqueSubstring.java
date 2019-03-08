@@ -1,7 +1,6 @@
-import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class GetShortestUniqueSubstring {
 
     static String getShortestUniqueSubstring(char[] arr, String str) {
         // your code goes here
@@ -59,7 +58,7 @@ public class Solution {
 
     public static void main(String[] args) {
         char[] arr = {'A'};
-        System.out.println(Solution.getShortestUniqueSubstring(arr, "A"));
+        System.out.println(GetShortestUniqueSubstring.getShortestUniqueSubstring(arr, "A"));
         System.out.println("test..");
     }
 
